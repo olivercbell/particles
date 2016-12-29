@@ -1,7 +1,14 @@
 module.exports = {
-  entry: './main.js',
+  entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: '.'
+    path: './dist'
+  },
+  module: {
+    loaders: [{
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+    }]
   }
 }
