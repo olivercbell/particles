@@ -1,7 +1,7 @@
 var particle;
 
 particle = {
-    name: 'a'
+    name: 'b'
 };
 
 module.exports = particle;
