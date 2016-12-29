@@ -50,7 +50,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	eval("'use strict';\n\nvar particle;\n\nparticle = {\n    name: 'a'\n};\n\nmodule.exports = particle;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9lbnRpdGllcy9wYXJ0aWNsZXMvcGFydGljbGUuanM/MzE3OSJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbnZhciBwYXJ0aWNsZTtcblxucGFydGljbGUgPSB7XG4gICAgbmFtZTogJ2EnXG59O1xuXG5tb2R1bGUuZXhwb3J0cyA9IHBhcnRpY2xlO1xuXG5cbi8vLy8vLy8vLy8vLy8vLy8vL1xuLy8gV0VCUEFDSyBGT09URVJcbi8vIC4vc3JjL2VudGl0aWVzL3BhcnRpY2xlcy9wYXJ0aWNsZS5qc1xuLy8gbW9kdWxlIGlkID0gMVxuLy8gbW9kdWxlIGNodW5rcyA9IDAiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==");
+	eval("'use strict';\n\nvar particle;\n\nparticle = {\n    name: 'b'\n};\n\nmodule.exports = particle;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9lbnRpdGllcy9wYXJ0aWNsZXMvcGFydGljbGUuanM/MzE3OSJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbnZhciBwYXJ0aWNsZTtcblxucGFydGljbGUgPSB7XG4gICAgbmFtZTogJ2InXG59O1xuXG5tb2R1bGUuZXhwb3J0cyA9IHBhcnRpY2xlO1xuXG5cbi8vLy8vLy8vLy8vLy8vLy8vL1xuLy8gV0VCUEFDSyBGT09URVJcbi8vIC4vc3JjL2VudGl0aWVzL3BhcnRpY2xlcy9wYXJ0aWNsZS5qc1xuLy8gbW9kdWxlIGlkID0gMVxuLy8gbW9kdWxlIGNodW5rcyA9IDAiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ }
 /******/ ]);
