@@ -15,4 +15,4 @@ Field.prototype = {
     }
 };
 
-return Field;
+module.exports = Field;
