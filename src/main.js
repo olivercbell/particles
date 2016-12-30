@@ -1,5 +1,5 @@
-import particle from './entities/particles/particle';
-console.log(particle);
+import Particle from 'entities/particle/particle';
+console.log(Particle);
 
 // var canvas,
 // clientHeight,

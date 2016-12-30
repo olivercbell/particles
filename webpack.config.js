@@ -1,5 +1,9 @@
+var path;
+path = require('path');
+
 module.exports = {
-  entry: './src/main.js',
+  context: __dirname + '/src',
+  entry: './main.js',
   output: {
     filename: 'bundle.js',
     path: './dist'
@@ -10,6 +14,13 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/
     }]
+  },
+  resolve: {
+    root: path.resolve('./src'),
+    extensions: ['', '.js'],
+    alias: {
+      underscore: 'vendor/underscore'
+    }
   },
   devtool: 'cheap-eval-source-map'
 }
