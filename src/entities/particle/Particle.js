@@ -1,5 +1,5 @@
 import _ from 'underscore';
-import Vector from 'entities/vector/vector';
+import Vector from 'entities/vector/Vector';
 
 var Particle;
 

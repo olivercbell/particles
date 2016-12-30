@@ -1,5 +1,5 @@
-import Vector from 'entities/vector/vector';
-import Particle from 'entities/particle/particle';
+import Vector from 'entities/vector/Vector';
+import Particle from 'entities/particle/Particle';
 
 var Emitter;
 

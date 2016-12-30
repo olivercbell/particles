@@ -1,4 +1,4 @@
-import Vector from 'entities/vector/vector';
+import Vector from 'entities/vector/Vector';
 
 var Field;
 

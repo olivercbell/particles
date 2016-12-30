@@ -1,4 +1,4 @@
-import Particle from 'entities/particle/particle';
+import Particle from 'entities/particle/Particle';
 console.log(Particle);
 
 // var canvas,
