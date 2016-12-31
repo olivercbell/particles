@@ -3,14 +3,14 @@ import Vector from 'entities/vector/Vector';
 
 var Particle;
 
-Particle = function (point, velocity, acceleration, drag) {
-    this.position = point || new Vector(0, 0);
-    this.drag = drag || 0;
-    this.initialX = point.x;
-    this.initialY = point.y;
+Particle = function (position, velocity, acceleration, options) {
+    this.position = position || new Vector(0, 0);
+    this.initialX = position.x;
+    this.initialY = position.y;
     this.velocity = velocity || new Vector(0, 0);
     this.acceleration = acceleration || new Vector(0, 0);
     this.anchors = [];
+    _.extend(this, options);
 };
 
 Particle.prototype = {
@@ -37,7 +37,7 @@ Particle.prototype = {
             vectorX = field.position.x - this.position.x;
             vectorY = field.position.y - this.position.y;
             
-            force = field.mass / Math.pow((vectorX*vectorX+vectorY*vectorY + 1000),field.powerDiminish);
+            force = field.mass / Math.pow((vectorX * vectorX + vectorY * vectorY + 1000),field.powerDiminish);
             
             totalAccelerationX += vectorX * force;
             totalAccelerationY += vectorY * force;

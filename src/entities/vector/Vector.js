@@ -21,6 +21,10 @@ Vector.prototype = {
 
     fromAngle: function (angle, magnitude) {
         return new Vector(magnitude * Math.cos(angle), magnitude * Math.sin(angle));
+    },
+
+    difference: function (vector) {
+        return new Vector(this.x - vector.x, this.y - vector.y);
     }
 };
 

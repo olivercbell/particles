@@ -7,7 +7,6 @@ Emitter = function (point, velocity, spread) {
     this.position = point;
     this.velocity = velocity;
     this.spread = spread || Math.PI / 32;
-    this.drawColor = "#90C6C3";
 };
 
 Emitter.prototype = {
@@ -25,7 +24,9 @@ Emitter.prototype = {
         var velocity = Vector.prototype.fromAngle(angle, magnitude);
         
         // return our new Particle!
-        return new Particle(position,velocity);
+        return new Particle(position, velocity, new Vector(0, 0), {
+            randomKey: Math.random()
+        });
     }
 };
 

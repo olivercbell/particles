@@ -11,7 +11,6 @@ Field = function (point, mass, powerDiminish) {
 Field.prototype = {
     setMass: function (mass) {
         this.mass = mass || 100;
-        this.drawColor = mass < 0 ? '255,0,0' : '0,255,0';
     }
 };
 
